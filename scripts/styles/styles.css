@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+ /* Logo/Nav Bar ============================================ */
+#logoimg {
+    height: 70px;
+    margin-left: 20px;
+}
+
+#gocamp {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#sugtripstitle {
+    margin-top: 20px;
+}
+
+#logoName {
+    max-width: 100px;
+}
+
+.mainPic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+    max-width: 50%;
+    max-height: 40%;
+    border-radius: 10px;
+    border: 1px solid #689f38;
+}
+
+.quote {
+    font-family: "Asap", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 50px 300px 0px 300px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.logo {
+    margin-right: 20px;  
+}
+
+.breakdiv {
+    height: 450px;
+}
+
+/* Suggestted Trips Section ================================ */
+
+.images {
+    width: 500px;
+    border: solid 3px #ee9d0d; 
+    border-radius: 10px;
+    height: 250px;
+}
+
+.suggested-trips {
+    border-radius: 10px;
+    padding-left: 50px;
+    content: 10px;
+    margin: 50px 0 50px 0;
+    background-color: white;
+    max-height: 100%;
+}
+
+#suggested-trips {
+    padding: 130px 20px 20px 20px;
+    border-top: solid 5px #689f38;
+    /* margin-top: 150px; */
+}
+
+/* Create a Trip ================================================ */
+#create-your-own-trip {
+    padding-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+label {
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+/* My Planned Trips ================================================= */
+
+#my-trips {
+    padding: 150px 0px 0px 50px;
+}
+
+.my-trips-list {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.planTrip {
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#wish-list {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+/* Past Trips =========================================================== */
+#past-trips {
+    /* padding: 5px; */
+    margin-top: 100px;
+}
+
+.past-trips-list {
+    font-weight: 200;
+    border: 5px solid #ee9d0d;
+    
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.past-trips-list > p {
+    color: #689f38;
+    font-weight: bold;
+}
+
+.pastTripPhotosDiv {
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.pastTripPhotos {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Equipment ============================================ */
+
+.equipitemlist {
+    margin-top:50px; 
+    padding-left: 7%;
+}
+
+.equipment {
+    margin-top: 300px;
+    padding-top: 100px;
+    border-top: solid #ee9d0d;
+}
+
+ul.striped-list>li:nth-of-type(odd){
+    background-color: lightgreen;
+}
+ul.striped-list > li {
+    border-bottom: 1px solid  lightgreen;
+    padding: 6px;
+}
+ul.striped-list > li:last-child {
+    border-bottom: none;
+}
+
+.list-group {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.listItem {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/* Itinerary ================================== */
+
+.itinerary {
+    text-align: center;
+}
+
+.itineraryItem {
+    border: 2px solid #689f38;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    padding: -10px;
+}
+
+#itinerary {
+    margin-top: 300px;
+    border-top: solid #ee9d0d;
+    padding-top: 150px;
+}
+
+.removeButton {
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+
+
+
+.checklist {
+    margin: 0 auto;
+    width:80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Footer ==================================================== */
+.last-div {
+    padding-top: 60px;
+    height: 100px;
+} 
+
+#bottom-image {
+    max-width: 100%;
+}
+
+#footer-img {
+    max-width: 200px;
+}
+
+#finale {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.finale-left {
+    font-size: 500;
+    color: #689f38;
+    padding-top: 50px;
+}
+
+summary:focus{
+    outline: none;
+}
+
+a { color: inherit; } 
